@@ -1,0 +1,11 @@
+# Use template for CI/CD (clang format and doxygen)
+include:
+#  - project: 'hyperk/policies/hk-CI'
+#    file: '/templates/c++-format.yml'
+  - project: 'hyperk/policies/hk-CI'
+    file: '/templates/docker-build-push.yml'
+
+
+stages:
+#  - format
+  - build

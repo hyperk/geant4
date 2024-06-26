@@ -1,4 +1,4 @@
-/install-*
-/build-*
-/src
-/tar
+build-*
+install-*
+src
+tar

@@ -1,4 +1,5 @@
-FROM ghcr.io/hyperk/hk-pilot:main
+ARG BASE_IMAGE=ghcr.io/hyperk/hk-pilot:main
+FROM ${BASE_IMAGE}
 
 COPY . /usr/local/hk/Geant4
 
